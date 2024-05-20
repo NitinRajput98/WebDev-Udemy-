@@ -41,3 +41,30 @@ footer {
 span {
   color: midnightblue;
 }
+
+@media (max-width: 1240px) {
+  .card-text,
+  .card-title {
+    clear: left;
+  }
+}
+
+@media (max-width: 680px) {
+  .left {
+    float: none;
+  }
+  .card {
+    display: block;
+    width: 100%;
+  }
+  .main > h1 {
+    text-align: center;
+    font-size: 3.5rem;
+  }
+  .logo {
+    width: 6rem;
+  }
+  .card > img {
+    width: 100%;
+  }
+}
